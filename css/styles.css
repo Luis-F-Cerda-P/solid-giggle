@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
   font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.aquaBanner{
+    background-color: #3CDDF3;
+    color: #FFFFFF;
+    height: 306px;
 }
 
 header {

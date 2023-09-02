@@ -1,13 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
-*{
-    font-family: 'Be Vietnam Pro';
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .aquaBanner{
     background-color: #3CDDF3;
     color: #FFFFFF;
     height: 306px;
+}
+
+header {
+  padding: 2.5rem 3.5rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger-button {
+  width: 3.75rem;
+  height: 3.75rem;
+  padding: 0.6rem 0.4rem;
+  background-color: #FFFFFF;
+}
+
+.hero {
+  margin: 4rem 2.5rem 2.5rem;
+  text-align: end;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero h1 {
+  color: #232C50;
+  font-weight: 700;
+  font-size: 3.125rem;
 }

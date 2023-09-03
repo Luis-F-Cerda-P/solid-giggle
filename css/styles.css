@@ -12,6 +12,12 @@
     background-color: #3CDDF3;
     color: #FFFFFF;
     height: 306px;
+    /* display: flex; */
+}
+
+.subtitulo{
+    font-weight: 700;
+    height: 88px;
 }
 
 header {

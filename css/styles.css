@@ -8,6 +8,27 @@
   font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+.purple-pill {
+  display: inline-block;
+  width: 134px;
+  height: 44px;
+  padding: 12.5px 0;
+  border-radius: 50px;
+  background: #8B48BF;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+span.purple-pill {
+  width: 4.375rem;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 1.5rem;
+}
+
 .aquaBanner{
     background-color: #3CDDF3;
     color: #FFFFFF;
@@ -24,10 +45,33 @@ header {
   padding: 2.5rem 3.5rem 0;
 }
 
+header ul {
+  display: none;
+  list-style-type: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+header .purple-pill {
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  color: #242E52;
+}
+
+a>li:hover {
+  opacity: 0.6;
 }
 
 .hamburger-button {
@@ -39,15 +83,117 @@ nav {
 
 .hero {
   margin: 4rem 2.5rem 2.5rem;
-  text-align: end;
+  text-align: right;
 }
 
 .hero img {
   width: 100%;
 }
 
+.hero div {
+  margin-top: 6.25rem;
+}
+
 .hero h1 {
   color: #232C50;
   font-weight: 700;
   font-size: 3.125rem;
+  line-height: 3.6rem;
+  letter-spacing: -0.035rem;
+}
+
+.hero p {
+  margin-top: 1.625rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+}
+
+.hero button {
+  margin-top: 1.625rem;
+}
+
+
+.pro-features {
+  margin-top: 4rem;
+  padding-left: 2.125rem;
+}
+
+.pro-features h2 {
+  background: #8B48BF4D;
+  border-radius: 50px 0px 0px 50px;
+  color: #323851;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+.pro-features p {
+  margin: 1.25rem 1.125rem 1.25rem 0;
+  padding: 0.625rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #B3B2B7;
+}
+
+@media (min-width: 1440px) {
+  
+  header {
+    padding: 65px 165px;
+  }
+
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 397px;
+    text-decoration: none;
+  }
+
+  header .purple-pill {
+    display: block;
+    box-shadow: 0 5px 5px lightgray;
+  }
+
+  .hamburger-button {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 86px 170px 95px 180px;
+  }
+
+  .hero div {
+    margin: 31px 0 0 100px;
+  }
+
+  .pro-features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 74px;
+    row-gap: 24px;
+    padding: 0;
+  }
+
+  .pro-features .feature-card {
+    width: 530px;
+  }
+
+  .pro-features h2 {
+    background-color: white;
+  }
+
+  .pro-features p {
+    font-size: 16.3px;
+    margin: 18px 0 10px 96px;
+    letter-spacing: -0.04em;
+    line-height: 25.52px;
+    padding: 0;
+  }
 }

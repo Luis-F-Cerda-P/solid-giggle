@@ -103,7 +103,7 @@
         <h3>Best of the month</h3>
         <article class="card">
           <img src="img/avatar-sanyo.png" alt="Foto de Sanyo" class="profile" />
-          <h5>Lebron</h5>
+          <h5>Sanyo</h5>
           <p>
             Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
             mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
@@ -125,7 +125,7 @@
             alt="Foto de Navarro"
             class="profile"
           />
-          <h5>Lebron</h5>
+          <h5>Navarro</h5>
           <p>
             Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat
             mauris, ut suscipit massa ipsum eu neque. Orci varius natoque
@@ -143,22 +143,24 @@
       </section>
     </main>
     <footer>
-      <form action="" method="POST">
-        <input type="text" placeholder="Update in your inbox...">
-        <button class="purple-pill">Go</button>
+      <form action="/update" method="POST">
+        <input type="email" name="updateEmail" placeholder="Update in your inbox...">
+        <button type="submit" class="btn btn-sm purple">Go</button>
       </form>
-      <nav>
+      <nav class="menu">
         <ul>
           <li>Home</li>
-          <li>Trainig</li>
           <li>Pricing</li>
-          <li>Community</li>
           <li>Products</li>
-          <li>Privacy Policy</li>
           <li>About Us</li>
+        </ul>
+        <ul>
+          <li>Trainig</li>
+          <li>Community</li>
+          <li>Privacy Policy</li>
         </ul>        
       </nav>
-        <div>
+      <div class="socialMedia">
         <div>
           <img src="img/icon-facebook.svg" alt="Logo Facebook">
           <img src="img/icon-youtube.svg" alt="Logo Youtube">
@@ -166,8 +168,9 @@
           <img src="img/icon-pinterest.svg" alt="Logo Pinterest">
           <img src="img/icon-instagram.svg" alt="Logo Instagram">
         </div>
-        <img src="img/logo.svg" alt="Logo Sportit">
+        <img src="img/logoFooter.png" alt="Logo Sportit">
       </div>
+      <p class="copyright">Copyright 2020. All Rights Reserved</p>
     </footer>
   </body>
 </html>

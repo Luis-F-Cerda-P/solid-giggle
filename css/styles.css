@@ -1,38 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
+/* Las propiedades dentro de cada declaración de CSS están ordenadas en orden alfabético para que sea más fácil encontrarlas */
+
 * {
+  border: 0;
   box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
   margin: 0;
   padding: 0;
-  border: 0;
-  font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.purple-pill {
-  display: inline-block;
-  width: 134px;
-  height: 44px;
-  padding: 12.5px 0;
-  border-radius: 50px;
+.pill {
   background: #8B48BF;
+  border-radius: 50px;
+  color: #FFFFFF;
+  display: inline-block;
   font-size: 0.8rem;
   font-weight: 500;
+  height: 44px;
   line-height: 1.2rem;
-  color: #FFFFFF;
+  padding: 12.5px 0;
   text-align: center;
+  width: 134px;
 }
 
-span.purple-pill {
-  width: 4.375rem;
-  font-weight: 700;
+.pill.small {
   font-size: 1rem;
+  font-weight: 700;
   margin-right: 1.5rem;
+  width: 4.375rem;
 }
 
-.aquaBanner{
-    background-color: #3CDDF3;
-    color: #FFFFFF;
-    height: 306px;
+.aquaBanner {
+  background-color: #3CDDF3;
+  color: #FFFFFF;
+  height: 306px;
 }
 
 header {
@@ -41,19 +43,19 @@ header {
 
 header ul {
   display: none;
-  list-style-type: none;
   font-size: 13px;
   font-weight: 500;
+  list-style-type: none;
 }
 
-header .purple-pill {
+header .pill {
   display: none;
 }
 
 nav {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 a {
@@ -135,7 +137,7 @@ a>li:hover {
 }
 
 @media (min-width: 1440px) {
-  
+
   header {
     padding: 65px 165px;
   }
@@ -147,7 +149,7 @@ a>li:hover {
     text-decoration: none;
   }
 
-  header .purple-pill {
+  header .pill {
     display: block;
     box-shadow: 0 5px 5px lightgray;
   }
@@ -172,7 +174,6 @@ a>li:hover {
     flex-wrap: wrap;
     column-gap: 74px;
     row-gap: 24px;
-    padding: 0;
   }
 
   .pro-features .feature-card {

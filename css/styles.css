@@ -10,22 +10,16 @@
 
 .purple-pill {
   display: inline-block;
-  width: 134px;
+  width: 4.375rem;
   height: 44px;
   padding: 12.5px 0;
   border-radius: 50px;
   background: #8b48bf;
-  font-size: 0.8rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 700;
   line-height: 1.2rem;
   color: #ffffff;
   text-align: center;
-}
-
-span.purple-pill {
-  width: 4.375rem;
-  font-weight: 700;
-  font-size: 1rem;
   margin-right: 1.5rem;
 }
 
@@ -34,6 +28,7 @@ span.purple-pill {
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 1.2rem;
+  padding: 12.5px 0;
   text-align: center;
 }
 
@@ -49,6 +44,11 @@ span.purple-pill {
 
 .purple {
   background: #8b48bf;
+  color: #ffffff;
+}
+
+.bestTeams {
+  background: #232c50;
   color: #ffffff;
 }
 
@@ -94,7 +94,7 @@ span.purple-pill {
   height: 44px;
   padding: 12.5px 0;
   border-radius: 50px;
-  background: #232c50;
+  
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 1.2rem;
@@ -339,8 +339,7 @@ a > li:hover {
     text-decoration: none;
   }
 
-  header .purple-pill {
-    display: block;
+  header button.btn.btn-md.purple{
     box-shadow: 0 5px 5px lightgray;
   }
 
@@ -406,6 +405,11 @@ a > li:hover {
     justify-content: space-around;
     padding: 40px 50px 30px 50px;
     align-items: baseline;
+  }
+
+  .bestTeams {
+    background: #ffffff;
+    color: #8B48BF;
   }
 
   .cards {

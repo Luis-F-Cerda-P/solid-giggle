@@ -59,6 +59,10 @@ span.purple-pill {
   padding: 40px 20px;
 }
 
+i {
+  font-size: 20px;
+}
+
 .leftBanner {
   display: flex;
   flex-direction: column;
@@ -75,6 +79,7 @@ span.purple-pill {
   height: 88px;
   font-size: 36px;
   line-height: 41.26px;
+  letter-spacing: 0.015em;
 }
 
 .centrar {

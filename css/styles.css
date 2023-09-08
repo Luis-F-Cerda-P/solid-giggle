@@ -38,7 +38,7 @@ span.purple-pill {
 }
 
 .btn-sm {
-  width: 70px;
+  width: 63px;
   height: 43px;
 }
 
@@ -156,34 +156,37 @@ span.purple-pill {
 }
 
 .menu {
-  padding: 10px 25px;
-  display: flex;
+  align-content: space-between;
   align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 160px;
+  line-height: 23px;
+  padding: 10px;
+  row-gap: 12px;
+  width: 345px;
 }
 
 .menu li {
-  margin-bottom: 20px;
+  color: white;
+  list-style: none;
 }
 
 .socialMedia {
-  height: 100px;
+  height: 42px;
+  padding: 10px 0;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-
-.socialMedia div {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .copyright {
   color: #8c8c94;
   font-size: 12.5px;
   text-align: center;
-  margin-top: 45px;
+  height: 38px;
+  line-height: 38px;
 }
 
 input {
@@ -206,25 +209,29 @@ section > h3 {
 
 footer {
   background-color: #1e1e26;
-  height: 534.71px;
-  padding: 45px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding: 40px 50px;
+  height: 535px;
+  text-align: center;
+}
+
+.footer-main-container>img {
+  margin: 10px 0 35px 0;
+}
+
+.footer-main-container>* {
+  margin-bottom: 25px;
 }
 
 form {
   height: 68.52px;
+  padding: 10px 0;
 }
 
 header {
   padding: 2.5rem 3.5rem 0;
 }
 
-.menu li {
-  color: white;
-  list-style: none;
-}
+
 
 header ul {
   display: none;
@@ -237,7 +244,7 @@ header .purple-pill {
   display: none;
 }
 
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -407,5 +414,47 @@ a > li:hover {
 
   .card:nth-child(1),.card:nth-child(3) {
     display: flex;
+  }
+
+  footer {
+    height: 250px;
+    padding: 55px 170px;
+  }
+
+  footer input {
+    width: 200px;
+  }
+
+  .footer-main-container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    align-content: space-between;
+    justify-content: flex-end;
+  }
+
+  .footer-main-container>*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-main-container>img {
+    margin: 0 auto auto 0; 
+    /* margin-bottom: auto; */
+    width: 108px;
+  }
+
+  .socialMedia {
+    width: 155px;
+  }
+
+  .copyright {
+    text-align: end;
+  }
+
+  .menu {
+    height: 137px;
+    padding: 0;
   }
 }

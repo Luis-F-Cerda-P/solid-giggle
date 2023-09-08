@@ -1,5 +1,7 @@
+/* || Importando la fuente Be Vietnam Pro */
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400;500;700&display=swap");
 
+/* || ESTILOS GENERALES */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,6 +25,7 @@
   margin-right: 1.5rem;
 }
 
+/* || ESTILOS DEL HEADER */
 .btn {
   border-radius: 50px;
   font-size: 0.8rem;
@@ -91,20 +94,6 @@ i {
 .banner p {
   font-size: 16px;
   line-height: 24.18px;
-}
-
-.blueButton {
-  display: inline-block;
-  width: 134px;
-  height: 44px;
-  padding: 12.5px 0;
-  border-radius: 50px;
-  
-  font-size: 0.8rem;
-  font-weight: 500;
-  line-height: 1.2rem;
-  color: #ffffff;
-  text-align: center;
 }
 
 .cardContainer {
@@ -236,8 +225,6 @@ header {
   padding: 2.5rem 3.5rem 0;
 }
 
-
-
 header ul {
   display: none;
   list-style-type: none;
@@ -245,7 +232,7 @@ header ul {
   font-weight: 500;
 }
 
-header .purple-pill {
+header .btn.btn-md.purple {
   display: none;
 }
 
@@ -344,9 +331,13 @@ a > li:hover {
     text-decoration: none;
   }
 
-  header button.btn.btn-md.purple{
+  header .btn.btn-md.purple {
+    display: block;
     box-shadow: 0 5px 5px lightgray;
   }
+
+  /* header button.btn.btn-md.purple{
+  } */
 
   .hamburger-button {
     display: none;

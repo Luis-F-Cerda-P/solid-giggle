@@ -10,215 +10,25 @@
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
-.purple-pill {
-  display: inline-block;
-  width: 4.375rem;
-  height: 44px;
-  padding: 12.5px 0;
-  border-radius: 50px;
-  background: #8b48bf;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.2rem;
-  color: #ffffff;
-  text-align: center;
-  margin-right: 1.5rem;
-}
-
 /* || ESTILOS DEL HEADER */
-.btn {
-  border-radius: 50px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  line-height: 1.2rem;
-  padding: 12.5px 0;
-  text-align: center;
+
+a {
+  text-decoration: none;
 }
 
-.btn-sm {
-  width: 63px;
-  height: 43px;
+a:-webkit-any-link {
+  color: #242e52;
 }
 
-.btn-md {
-  width: 134px;
-  height: 44px;
+a > li:hover {
+  opacity: 0.6;
 }
 
-.purple {
-  background: #8b48bf;
-  color: #ffffff;
-}
-
-.bestTeams {
-  background: #232c50;
-  color: #ffffff;
-}
-
-.banner {
-  background-color: #3cddf3;
-  color: #ffffff;
-  height: 306px;
-  padding: 40px 20px;
-}
-
-i {
-  font-size: 20px;
-}
-
-.leftBanner {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.centerBanner {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.subtitulo {
-  height: 88px;
-  font-size: 36px;
-  line-height: 41.26px;
-  letter-spacing: 0.015em;
-}
-
-.centrar {
-  width: 324px;
-  height: 192px;
-  text-align: center;
-}
-
-.banner p {
-  font-size: 16px;
-  line-height: 24.18px;
-}
-
-.cardContainer {
-  min-height: 430px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px 0 60px;
-}
-
-.cards {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px 0 60px;
-  padding: 0 18px;
-}
-
-.card {
-  height: 219px;
-  background-color: #fafafa;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 60px;
-  position: relative;
-  display: flex;
-  padding: 0 35px;
-  text-align: center;
-}
-
-.card:nth-child(1),.card:nth-child(3) {
-  display: none;
-}
-
-.card h5 {
-  font-size: 16.07px;
-  line-height: 25.17px;
-  color: #3f4868;
-  margin: 40px 0 16.07px 0;
-}
-
-.card img {
-  position: absolute;
-  top: -35px;
-}
-
-.card p {
-  font-weight: 500;
-  font-size: 16px;
-  color: #b9b9c1;
-}
-
-.menu {
-  align-content: space-between;
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 160px;
-  line-height: 23px;
-  padding: 10px;
-  row-gap: 12px;
-  width: 345px;
-}
-
-.menu li {
-  color: white;
-  list-style: none;
-}
-
-.socialMedia {
-  height: 42px;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.copyright {
-  color: #8c8c94;
-  font-size: 12.5px;
-  text-align: center;
-  height: 38px;
-  line-height: 38px;
-}
-
-input {
-  border-radius: 50px;
-  height: 44px;
-  width: 308px;
-  padding: 10px;
-  font-weight: 600;
-  font-size: 13.18px;
-  text-align: left;
-}
-
-section > h3 {
-  color: #242e53;
-  font-size: 39.21px;
-  line-height: 61.41px;
-  font-weight: 700;
-  text-align: center;
-}
-
-footer {
-  background-color: #1e1e26;
-  padding: 40px 50px;
-  height: 535px;
-  text-align: center;
-}
-
-.footer-main-container>img {
-  margin: 10px 0 35px 0;
-}
-
-.footer-main-container>* {
-  margin-bottom: 25px;
-}
-
-form {
-  height: 68.52px;
-  padding: 10px 0;
+.hamburger-button {
+  width: 3.75rem;
+  height: 3.75rem;
+  padding: 0.6rem 0.4rem;
+  background-color: #ffffff;
 }
 
 header {
@@ -242,23 +52,30 @@ header nav {
   align-items: center;
 }
 
-a {
-  text-decoration: none;
+/* || ESTILOS DE SECTION: BANNER */
+
+.btn {
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  padding: 12.5px 0;
+  text-align: center;
+  transition: opacity 0.3s ease-in-out;
 }
 
-a:-webkit-any-link {
-  color: #242e52;
+.btn:hover{
+  opacity: 0.7;
 }
 
-a > li:hover {
-  opacity: 0.6;
+.btn-sm {
+  width: 63px;
+  height: 43px;
 }
 
-.hamburger-button {
-  width: 3.75rem;
-  height: 3.75rem;
-  padding: 0.6rem 0.4rem;
-  background-color: #ffffff;
+.btn-md {
+  width: 134px;
+  height: 44px;
 }
 
 .hero {
@@ -293,6 +110,31 @@ a > li:hover {
   margin-top: 1.625rem;
 }
 
+.purple {
+  background: #8b48bf;
+  color: #ffffff;
+}
+
+/* || ESTILOS DE SECTION: DIFERENCIAS ENTRE PRO'S */
+
+.banner {
+  background-color: #3cddf3;
+  color: #ffffff;
+  height: 306px;
+  padding: 40px 20px;
+}
+
+.banner p {
+  font-size: 16px;
+  line-height: 24.18px;
+}
+
+.leftBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .pro-features {
   margin-top: 4rem;
   padding-left: 2.125rem;
@@ -319,7 +161,189 @@ a > li:hover {
   color: #b3b2b7;
 }
 
+.purple-pill {
+  display: inline-block;
+  width: 4.375rem;
+  height: 44px;
+  padding: 12.5px 0;
+  border-radius: 50px;
+  background: #8b48bf;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 1.5rem;
+}
+
+.subtitulo {
+  height: 88px;
+  font-size: 36px;
+  line-height: 41.26px;
+  letter-spacing: 0.015em;
+}
+
+/* || ESTILOS DE SECTION: JUGADORES DEL MES */
+
+.cardContainer {
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 60px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 60px;
+  padding: 0 18px;
+}
+
+.card {
+  height: 219px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  position: relative;
+  display: flex;
+  padding: 0 35px;
+  text-align: center;
+}
+
+.card:nth-child(1),
+.card:nth-child(3) {
+  display: none;
+}
+
+.card h5 {
+  font-size: 16.07px;
+  line-height: 25.17px;
+  color: #3f4868;
+  margin: 40px 0 16.07px 0;
+}
+
+.card img {
+  position: absolute;
+  top: -35px;
+}
+
+.card p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #b9b9c1;
+}
+
+/* || ESTILOS DE SECTION: MEJORES EQUIPOS */
+
+.bestTeams {
+  background: #232c50;
+  color: #ffffff;
+}
+
+.centerBanner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.centrar {
+  width: 324px;
+  height: 192px;
+  text-align: center;
+}
+
+/* || ESTILOS DEL FOOTER */
+
+.copyright {
+  color: #8c8c94;
+  font-size: 12.5px;
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+}
+
+footer {
+  background-color: #1e1e26;
+  padding: 40px 50px;
+  height: 535px;
+  text-align: center;
+}
+
+.footer-main-container > img {
+  margin: 10px 0 35px 0;
+}
+
+.footer-main-container > * {
+  margin-bottom: 25px;
+}
+
+form {
+  height: 68.52px;
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+input {
+  border-radius: 50px;
+  height: 44px;
+  width: 308px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 13.18px;
+  text-align: left;
+}
+
+.menu {
+  align-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 160px;
+  line-height: 23px;
+  padding: 10px;
+  row-gap: 12px;
+  width: 345px;
+}
+
+.menu li {
+  color: white;
+  list-style: none;
+}
+
+section > h3 {
+  color: #242e53;
+  font-size: 39.21px;
+  line-height: 61.41px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.socialMedia {
+  height: 42px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* || ESTILOS APLICADOS AL MEDIA QUERY */
+
 @media (min-width: 1440px) {
+  /* || MEDIA QUERY DEL HEADER */
   header {
     padding: 65px 165px;
   }
@@ -336,13 +360,11 @@ a > li:hover {
     box-shadow: 0 5px 5px lightgray;
   }
 
-  /* header button.btn.btn-md.purple{
-  } */
-
   .hamburger-button {
     display: none;
   }
 
+  /* || MEDIA QUERY DE SECTION: BANNER */
   .hero {
     display: flex;
     justify-content: space-between;
@@ -351,6 +373,27 @@ a > li:hover {
 
   .hero div {
     margin: 31px 0 0 100px;
+  }
+
+  /* || MEDIA QUERY DE SECTION: DIFERENCIAS ENTRE PRO'S */
+  .banner {
+    background-color: #8b48bf;
+    flex-direction: row;
+    height: 168px;
+  }
+
+  .banner p {
+    width: 450px;
+  }
+
+  .leftBanner {
+    padding: 37px 100px;
+    justify-content: space-evenly;
+  }
+
+  .subtitulo {
+    width: 500px;
+    text-align: left;
   }
 
   .pro-features {
@@ -378,23 +421,19 @@ a > li:hover {
     padding: 0;
   }
 
-  .banner {
-    background-color: #8b48bf;
-    flex-direction: row;
-    height: 168px;
+  /* || MEDIA QUERY DE SECTION: JUGADORES DEL MES */
+  .cards {
+    padding: 0 3.5rem;
   }
 
-  .banner p {
-    width: 450px;
+  .card:nth-child(1),
+  .card:nth-child(3) {
+    display: flex;
   }
 
-  .leftBanner {
-    padding: 37px 100px;
-    justify-content: space-evenly;
-  }
-
-  .subtitulo {
-    width: 500px;
+  /* || MEDIA QUERY DE SECTION: MEJORES EQUIPOS */
+.banner .btn.btn-md.bestTeams {
+    box-shadow: 0px 4px 8px 0px #00000025;
   }
 
   .centerBanner {
@@ -405,15 +444,12 @@ a > li:hover {
 
   .bestTeams {
     background: #ffffff;
-    color: #8B48BF;
+    color: #8b48bf;
   }
 
-  .cards {
-    padding: 0 3.5rem;
-  }
-
-  .card:nth-child(1),.card:nth-child(3) {
-    display: flex;
+  /* || MEDIA QUERY DEL FOOTER */
+  .copyright {
+    text-align: end;
   }
 
   footer {
@@ -425,6 +461,11 @@ a > li:hover {
     width: 200px;
   }
 
+  form {
+    width: auto;
+    display: block;
+  }
+
   .footer-main-container {
     height: 100%;
     display: flex;
@@ -434,27 +475,22 @@ a > li:hover {
     justify-content: flex-end;
   }
 
-  .footer-main-container>*{
+  .footer-main-container > * {
     margin: 0;
     padding: 0;
   }
 
-  .footer-main-container>img {
-    margin: 0 auto auto 0; 
-    /* margin-bottom: auto; */
+  .footer-main-container > img {
+    margin: 0 auto auto 0;
     width: 108px;
-  }
-
-  .socialMedia {
-    width: 155px;
-  }
-
-  .copyright {
-    text-align: end;
   }
 
   .menu {
     height: 137px;
     padding: 0;
+  }
+
+  .socialMedia {
+    width: 155px;
   }
 }
